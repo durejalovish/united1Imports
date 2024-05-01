@@ -1007,12 +1007,12 @@ $document.ready(function () {
 	 * UI To Top
 	 * @description Enables ToTop Button
 	 */
-	if (isDesktop && !isNoviBuilder) {
-		$().UItoTop({
-			easingType: 'easeOutQuart',
-			containerClass: 'ui-to-top'
-		});
-	}
+	// if (isDesktop && !isNoviBuilder) {
+	// 	$().UItoTop({
+	// 		easingType: 'easeOutQuart',
+	// 		containerClass: 'ui-to-top'
+	// 	});
+	// }
 
 	/**
 	 * RD Navbar

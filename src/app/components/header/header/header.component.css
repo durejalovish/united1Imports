@@ -1,0 +1,67 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fff;
+  color: #fff;
+  padding: 10px 20px;
+  font-size: 15px;
+  transition: #888 0.3s ease;
+}
+
+.navbar-brand a {
+  color: #888;
+  text-decoration: none;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.navbar-nav1 {
+  list-style: none;
+  display: flex; /* Make menu items horizontal */
+}
+
+.nav-item {
+  margin-right: 10px;
+  position: relative; /* Ensure positioning of submenus */
+}
+
+.with-submenu1 .submenu1 {
+  display: none; /* Hide submenus by default */
+  position: absolute;
+  top: 100%; /* Position submenus below their parent */
+  left: 0;
+  background-color: white; /* Background color of submenus */
+  padding: 10px;
+  transition: #888 0.3s ease;
+}
+
+.with-submenu1:hover .submenu1 {
+  display: block; /* Show submenu on hover */
+  color: #888;
+  background-color: #fff;
+  z-index: 6;
+  transition: 350ms ease;
+}
+
+.submenu1 li {
+  margin-bottom: 5px; /* Adjust spacing between submenu items */
+}
+
+.submenu1 li a {
+  color: #888;
+  text-decoration: none;
+  transition: .33s all ease;
+  width: 150px;
+}
+
+.submenu1 li a:hover {
+  text-decoration: underline;
+  color: #000;
+}
+.nav-link{
+    color: #888;
+}
+.nav-link:hover{
+    color: #000;
+}

@@ -12,6 +12,7 @@ import { BedroomComponent } from './components/catalog/bedroom/bedroom.component
 import { KitchenComponent } from './components/catalog/kitchen/kitchen.component';
 import { WashroomComponent } from './components/catalog/washroom/washroom.component';
 import { DealerComponent } from './components/dealer/dealer.component';
+import { CatalogGridComponent } from './components/catalog-grid/catalog-grid.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import { DealerComponent } from './components/dealer/dealer.component';
     BedroomComponent,
     KitchenComponent,
     WashroomComponent,
-    DealerComponent
+    DealerComponent,
+    CatalogGridComponent
   ],
   imports: [
     BrowserModule,
