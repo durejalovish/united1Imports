@@ -11,7 +11,10 @@ import { ContactComponent } from './components/contact/contact.component';
 import { BedroomComponent } from './components/catalog/bedroom/bedroom.component';
 import { KitchenComponent } from './components/catalog/kitchen/kitchen.component';
 import { WashroomComponent } from './components/catalog/washroom/washroom.component';
+import { OfficeComponent } from './components/catalog/office/office.component';
+import { LivingRoomComponent } from './components/catalog/livingRoom/livingRoom.component';
 import { DealerComponent } from './components/dealer/dealer.component';
+import { DiningroomComponent } from './components/catalog/diningroom/diningroom.component';
 import { CatalogGridComponent } from './components/catalog-grid/catalog-grid.component';
 
 @NgModule({
@@ -25,7 +28,10 @@ import { CatalogGridComponent } from './components/catalog-grid/catalog-grid.com
     BedroomComponent,
     KitchenComponent,
     WashroomComponent,
+    OfficeComponent,
+    LivingRoomComponent,
     DealerComponent,
+    DiningroomComponent,
     CatalogGridComponent
   ],
   imports: [
