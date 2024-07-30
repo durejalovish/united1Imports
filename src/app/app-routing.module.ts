@@ -23,7 +23,7 @@ const routes: Routes = [
   {path: "catalog/washroom", component: WashroomComponent},
   {path: "catalog/livingRoom", component: LivingRoomComponent},
   {path: "catalog/office", component: OfficeComponent},
-  {path: "catalog/dinigRoom", component: DiningroomComponent}
+  {path: "catalog/diningRoom", component: DiningroomComponent}
 ];
 
 @NgModule({
