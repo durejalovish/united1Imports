@@ -16,6 +16,8 @@ import { LivingRoomComponent } from './components/catalog/livingRoom/livingRoom.
 import { DealerComponent } from './components/dealer/dealer.component';
 import { DiningroomComponent } from './components/catalog/diningroom/diningroom.component';
 import { CatalogGridComponent } from './components/catalog-grid/catalog-grid.component';
+import { ReactiveFormsModule } from '@angular/forms';
+import { HttpClientModule } from '@angular/common/http'; 
 
 @NgModule({
   declarations: [
@@ -36,7 +38,9 @@ import { CatalogGridComponent } from './components/catalog-grid/catalog-grid.com
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    ReactiveFormsModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
